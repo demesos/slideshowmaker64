@@ -1,0 +1,1 @@
+The imageconverter scol64 is a command-line tool written in Python that reads bitmap images, scales them, converts its colors to the target format and outputs a file that can be displayed by the VIC chip of a C64 or C128. 
