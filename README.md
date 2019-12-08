@@ -3,11 +3,11 @@ Slideshowmaker64
 by Wil 
 V1.1 2019-12-07
 
-==About Slideshow Maker ==
+## About Slideshow Maker
 
 Slideshow Maker is a tool that takes images, converts them into a format that can be displayed on a C64 and adds a slideshow player with music.
 
-==Usage==
+## Usage
 
 To make a slideshow, put your pictures into folder "images" and start "makeslideshow.bat" (sorry for only haveing a windows batch file). Your pictures can be of different file formats and different size - the converter scales it to the target format. The filesize of converted images depends on the complexity of the images, but you can fit around 20-25 pics on one disk.
 
@@ -19,7 +19,7 @@ The batch file asks for the border color, the extra delay between pics (there is
 
 The output is a d64 image named "slideshow.d64".
 
-==Technical details==
+## Technical details
 
 Slideshow Maker uses a multicolor image format with a resolution of 320x200 pixels. In front of the image is a sprite layer of 8 times 10 unexpanded sprites which increases the number of available colors in the central part of the image. 
 The display routine is using 10 raster line interrupts per frame, but keeps the raster time to a minimum. This way the loader has sufficient CPU time to load the next image.
@@ -36,3 +36,6 @@ For building the slide show disk, the tool c1541 from the VICE emulator suite is
 
 Everything you need to run Slideshow Maker (on Windows) is included with this release.
 
+## Acknowledgments
+
+This project wouldn't have been possible without the existence of great tools like exomizer (credits to Zagon), Dreamland (The Dreams), VICE (VICE Team) and cc65 (von Bassewitz, Schmidt), thanks guys!
