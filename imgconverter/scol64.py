@@ -11,9 +11,6 @@ import math
 import operator
 import colorsys
 import time
-from colormath.color_objects import sRGBColor, LabColor
-from colormath.color_conversions import convert_color
-from colormath.color_diff import delta_e_cie2000
 import argparse
 import sys
 import os

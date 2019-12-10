@@ -10,7 +10,7 @@
 
 .include "../exttools/LAMAlib/LAMAlib.inc"
 .include "presets.inc"
-.FEATURE STRING_ESCAPES
+;.FEATURE STRING_ESCAPES
 
 ;----------------------------------------------------------
 ; Constants

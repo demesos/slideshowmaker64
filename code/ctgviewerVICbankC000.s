@@ -14,7 +14,7 @@
 .export ctgviewC000ISR1 := isr1, ctgviewC000ISR2 := isr2  
 
 .include "../exttools/LAMAlib/LAMAlib.inc"
-.FEATURE STRING_ESCAPES
+;.FEATURE STRING_ESCAPES
 
 vicbase=$C000
 screen=vicbase + $0800

@@ -1,7 +1,7 @@
 # slideshowmaker64
 Slideshowmaker64
 by Wil 
-V1.1 2019-12-07
+V1.2 2019-12-10
 
 ## About Slideshow Maker
 
@@ -39,3 +39,4 @@ Everything you need to run Slideshow Maker (on Windows) is included with this re
 ## Acknowledgments
 
 This project wouldn't have been possible without the existence of great tools like exomizer (credits to Zagon), Dreamland (The Dreams), VICE (VICE Team) and cc65 (von Bassewitz, Schmidt), thanks guys!
+
