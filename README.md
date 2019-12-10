@@ -1,7 +1,8 @@
 # slideshowmaker64
-Slideshowmaker64
-by Wil 
+Slideshowmaker64 by Wil
 V1.2 2019-12-10
+
+Thanks to zzarko for the Linux script 
 
 ## About Slideshow Maker
 
