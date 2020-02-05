@@ -635,7 +635,7 @@ if args.colorcomparison:
     elif args.colorcomparison=='simple':
         CM=0
     else:
-        sys.stderr.write('Unknown color model, please specify simple, MLP, or CIE2000.')
+        sys.stderr.write('Unknown color model, please specify simple or CIE2000.')
         sys.exit(1)
         
 if args.palette:
@@ -650,6 +650,14 @@ if args.palette:
     else:
         sys.stderr.write('Unknown palette, please specify web, vice, or pepto.')
         sys.exit(1)
+
+if args.nograydither:
+    #overwrite gray values
+    col_lst = list(c64basecolors)
+    col_lst[11] = 0x606060 # dark gray
+    col_lst[12] = 0x909090 #0x8A8A8A # mid gray
+    col_lst[15] = 0xB3B3B3 # light gray    
+    c64basecolors = tuple(col_lst)
 ##
 
 t0=time.time()
